@@ -1,0 +1,43 @@
+.payments-content {
+  margin: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.payments-subtitle {
+  font-size: 1.75rem;
+  font-weight: var(--title-weight);
+}
+
+.payments-description {
+  font-size: 1.25rem;
+  font-weight: var(--text-weight);
+  line-height: 2rem;
+}
+
+.payments-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.payments-photo {
+  height: 254px;
+  background-size: cover;
+  background-position: center;
+}
+
+.payments-photo-1 {
+  background-image: url(../assets/photo-1-mobile.png);
+}
+
+.payments-photo-2 {
+  background-image: url(../assets/photo-2-mobile.png);
+}
+
+.payments-photo-3 {
+  background-image: url(../assets/photo-3-mobile.png);
+  height: 182px;
+}
