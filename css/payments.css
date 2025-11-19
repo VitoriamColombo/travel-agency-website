@@ -40,4 +40,70 @@
 .payments-photo-3 {
   background-image: url(../assets/photo-3-mobile.png);
   height: 182px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-principal {
+    margin: 0;
+  }
+  .payments-content {
+    margin: 0 3.75rem 1.5rem;
+  }
+
+  .payments-photos {
+    margin: 0 3.75rem 1.5rem;
+  }
+
+  .payments-photo-1 {
+    background-image: url(../assets/photo-1-tablet.png);
+  }
+
+  .payments-photo-2 {
+    background-image: url(../assets/photo-2-tablet.png);
+  }
+
+  .payments-photo-3 {
+    background-image: url(../assets/photo-3-tablet.png);
+    margin: 0 3.75rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-principal {
+    margin: 0 7.5rem;
+  }
+
+  .payments-content-photos {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 1.5rem;
+  }
+
+  .payments-content {
+    margin: 0;
+    max-width: 384px;
+  }
+
+  .payments-subtitle {
+    margin-right: 6.18rem;
+  }
+
+  .payments-description {
+    margin-right: 1.43rem;
+  }
+
+  .payments-photos {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .payments-photo-3 {
+    margin: 0;
+    grid-column: 2;
+    background-size: cover;
+    background-position: center;
+  }
 }
