@@ -16,12 +16,6 @@
   font-weight: var(--title-weight);
 }
 
-.destinations-card-type {
-  font-size: 1.25rem;
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
 .destinations-card-button {
   display: block;
   width: 100%;

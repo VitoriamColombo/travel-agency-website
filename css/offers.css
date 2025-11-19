@@ -24,11 +24,6 @@
   text-align: center;
 }
 
-.offers-card-type {
-  font-size: 1.25rem;
-  font-weight: var(--text-weight);
-}
-
 .offers-card-destination {
   font-size: 2.5rem;
   font-weight: var(--title-weight);
@@ -74,7 +69,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .offers-title-h2 {
+  .section-title-h2 {
     font-size: 2rem;
   }
   .offers-list {
@@ -88,7 +83,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .offers-title {
+  .section-title  {
     margin: 6.5rem auto 4rem;
   }
 
