@@ -49,3 +49,9 @@ body {
   margin: auto; /* centraliza */
   border: none; /* remove a borda padrão do hr */
 }
+
+.description {
+  font-size: 1.25rem;
+  font-weight: var(--text-weight);
+  line-height: 2rem;
+}

@@ -10,12 +10,6 @@
   font-weight: var(--title-weight);
 }
 
-.payments-description {
-  font-size: 1.25rem;
-  font-weight: var(--text-weight);
-  line-height: 2rem;
-}
-
 .payments-photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
