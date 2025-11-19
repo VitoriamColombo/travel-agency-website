@@ -1,0 +1,99 @@
+.header {
+  background-color: var(--background-tertiary-color);
+  padding: 2.3rem 1.5rem;
+  position: relative;
+}
+
+.header-container {
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-desktop {
+  display: none;
+}
+
+/* Quando o checkbox do menu estiver marcado, exibimos a navegação (menu aberto) */
+.menu-toggle:checked ~ .header-links {
+  display: block;
+}
+/* Menu de navegação escondido por padrão; só aparece quando o checkbox é marcado */
+.header-links {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-item {
+  padding: 0.75rem 1.5rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-weight: var(--menu-text-weight);
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 2.3rem 0;
+  }
+
+  .header-container {
+    padding: 0 3.75rem;
+  }
+
+  .header-menu-links label {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .header-links {
+    display: block;
+    position: static;
+    width: auto;
+  }
+
+  .menu-list {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  .menu-item {
+    padding: 1rem 0;
+  }
+
+  .menu-link {
+    font-size: 1.5rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1440px) {
+  .header-container {
+    padding: 0 7.5rem;
+  }
+
+  .header-logo-desktop {
+    display: block;
+  }
+  .header-logo-mobile {
+    display: none;
+  }
+  .menu-link:hover {
+    color: var(--secondary-color);
+  }
+}
