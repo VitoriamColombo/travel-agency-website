@@ -1,4 +1,4 @@
-.title-offers{
+.title-offers {
   font-size: 1.75rem;
 }
 
@@ -36,18 +36,6 @@
   margin-bottom: 1.5rem;
 }
 
-.offers-card-button {
-  display: block;
-  width: 100%;
-  font-size: 20px;
-  font-weight: var(--title-weight);
-  background-color: var(--primary-color);
-  border-radius: 8px;
-  padding: 1rem 2rem;
-  color: var(--text-secondary-color);
-  text-decoration: none;
-}
-
 .card-japao {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url(../assets/bg-card-japao.jpg);
@@ -83,15 +71,19 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-title  {
+  .section-title {
     margin: 6.5rem auto 4rem;
+  }
+
+  .content {
+    margin: 0 7.5rem;
   }
 
   .offers-list {
     max-width: 1200px;
   }
 
-  .offers-card-button {
+  .card-button {
     width: 280px;
     display: inline-block;
   }

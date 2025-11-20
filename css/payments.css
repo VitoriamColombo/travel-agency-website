@@ -71,8 +71,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-principal {
-    margin: 0 7.5rem;
+  .payments {
+    display: flex;
   }
 
   .payments-content {

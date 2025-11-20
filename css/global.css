@@ -27,11 +27,11 @@ body {
 }
 
 .section-principal {
-  margin: 0 1.5rem;
+  margin: 0;
 }
 
 .section-title {
-  margin: 5.5rem 0 2rem;
+  margin: 5.5rem 1.5rem 2rem;
   text-align: center;
 }
 
@@ -50,8 +50,26 @@ body {
   border: none; /* remove a borda padrão do hr */
 }
 
+.content {
+  margin: 0 1.5rem;
+}
+
 .description {
   font-size: 1.25rem;
   font-weight: var(--text-weight);
   line-height: 2rem;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  height: 64px;
+  font-size: 1.25rem;
+  font-weight: var(--title-weight);
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  text-align: center;
 }

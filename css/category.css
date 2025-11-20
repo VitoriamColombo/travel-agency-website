@@ -44,10 +44,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-title {
-    margin: 6.5rem auto 4rem;
-  }
-
   .categories {
     max-width: 1197px; /* valor que está no Figma */
     margin: 2rem auto 5.5rem;
