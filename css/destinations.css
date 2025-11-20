@@ -16,33 +16,16 @@
   font-weight: var(--title-weight);
 }
 
-.destinations-card-button {
-  display: block;
-  width: 100%;
-  font-size: 1.25rem;
-  font-weight: var(--title-weight);
-  background-color: var(--primary-color);
-  border-radius: 8px;
-  padding: 1rem 2rem;
-  color: var(--text-secondary-color);
-  text-decoration: none;
-  text-align: center;
-}
-
 @media screen and (min-width: 768px) {
   .destinations-card {
     margin: 0 3.75rem;
   }
-  .destinations-card-button {
+  .card-button {
     max-width: 280px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .destinations-title {
-    margin: 6.5rem auto 4rem;
-  }
-
   .destinations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

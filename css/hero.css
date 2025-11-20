@@ -10,7 +10,7 @@
 
 .hero-text {
   padding: 0 1.5rem;
-  margin: 5.5rem auto;
+  margin-top: 5.5rem;
 }
 
 /*Tablet*/
@@ -19,13 +19,13 @@
     font-size: 2rem;
     line-height: 1.5;
     padding: 0;
-    margin: 5.5rem 3.75rem;
+    margin: 5.5rem 3.75rem 0;
   }
 }
 
 /*Desktop*/
 @media screen and (min-width: 1440px) {
   .hero-text {
-    margin: 6.5rem 7.5rem;
+    margin: 6.5rem 7.5rem 0;
   }
 }
