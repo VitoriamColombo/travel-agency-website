@@ -22,6 +22,10 @@
   margin: 16px 0 32px;
 }
 
+.title-divider-tokyo {
+  margin: 5.5rem 1.5rem 3.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .hero-blog {
     background-image: url(../assets/blog/hero-blog-tablet.png);
