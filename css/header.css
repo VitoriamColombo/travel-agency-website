@@ -43,6 +43,10 @@
   font-weight: var(--menu-text-weight);
 }
 
+.active {
+  text-decoration: underline;
+}
+
 /*Tablet*/
 @media screen and (min-width: 768px) {
   .header {

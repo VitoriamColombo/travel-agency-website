@@ -1,0 +1,39 @@
+.testimonial-description {
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.testimonial-author {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 0.5rem 1.625rem 2rem 0;
+}
+
+.author-title {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: var(--title-weight);
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .content-testimonial {
+    margin: 0 3.75rem;
+  }
+  .testimonial-author {
+    justify-content: left;
+    gap: 1.5rem;
+    margin: 0.5rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-testimonial {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1.5rem;
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

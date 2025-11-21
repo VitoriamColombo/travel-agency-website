@@ -1,0 +1,90 @@
+.title-offers {
+  font-size: 1.75rem;
+}
+
+.offers-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.offers-card {
+  padding: 1.5rem 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  min-height: 260px; /* altura do card */
+  color: var(--text-secondary-color);
+}
+
+.offers-card-content {
+  width: 100%;
+  text-align: center;
+}
+
+.offers-card-destination {
+  font-size: 2.5rem;
+  font-weight: var(--title-weight);
+  margin: 0.5rem 0 1.5rem;
+}
+
+.offers-card-price {
+  font-size: 2rem;
+  font-weight: var(--title-weight);
+  margin-bottom: 1.5rem;
+}
+
+.card-japao {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/bg-card-japao.jpg);
+}
+
+.card-san-andreas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/bg-card-san-andreas.jpg);
+}
+
+.card-paraiba {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/bg-card-paraiba.jpg);
+}
+
+.card-manaus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/bg-card-manaus.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .section-title-h2 {
+    font-size: 2rem;
+  }
+  .offers-list {
+    text-align: center;
+    max-width: 648px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-title {
+    margin: 6.5rem auto 4rem;
+  }
+
+  .content {
+    margin: 0 7.5rem;
+  }
+
+  .offers-list {
+    max-width: 1200px;
+  }
+
+  .card-button {
+    width: 280px;
+    display: inline-block;
+  }
+}
