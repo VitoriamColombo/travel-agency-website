@@ -3,9 +3,11 @@
 }
 
 .hero-img {
-  display: block;
+  background: url(../assets/hero-mobile.jpg);
   width: 100%;
-  height: auto;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-text {
@@ -15,6 +17,10 @@
 
 /*Tablet*/
 @media screen and (min-width: 768px) {
+  .hero-img {
+    background-image: url(../assets/hero-tablet.jpg);
+  }
+
   .hero-text {
     font-size: 2rem;
     line-height: 1.5;
@@ -25,6 +31,10 @@
 
 /*Desktop*/
 @media screen and (min-width: 1440px) {
+  .hero-img {
+    background-image: url(../assets/hero-desktop.jpg);
+  }
+
   .hero-text {
     margin: 6.5rem 7.5rem 0;
   }
