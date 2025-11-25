@@ -26,25 +26,25 @@
   margin: 5.5rem 1.5rem 3.5rem;
 }
 
-.destination-tokyo {
-  margin-top: 24px;
-}
-
-.img-tokyo {
-  width: 100%;
-  height: 300px;
-}
-
-.caption-tokyo {
-  margin-top: 8px;
-}
-
 .content-tokyo {
   margin-bottom: 32px;
 }
 
 .description-tokyo {
   margin-top: 24px;
+}
+
+.destination-tokyo {
+  margin-top: 24px;
+}
+
+.img-tokyo-noche {
+  width: 100%;
+  height: 300px;
+}
+
+.caption-tokyo {
+  margin-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -59,6 +59,33 @@
   .hero-blog-description {
     font-size: 32px;
     line-height: 150%;
+  }
+
+  .title-divider-tokyo {
+    margin: 88px 84px 0;
+  }
+
+  .content-tokyo-texto {
+    max-width: 648px;
+    margin: 32px 60px 0;
+  }
+
+  .content-tokyo-arrival {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+
+  .content-tokyo-chegada h3,
+  .content-tokyo-chegada p {
+    grid-column: 1;
+  }
+
+  .tokyo-day {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 0;
+    object-fit: cover;
   }
 }
 
@@ -75,6 +102,16 @@
     width: 579px;
     padding: 209px 0 0;
     margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-tokyo-texto {
+    max-width: 1200px;
+    margin: 64px 118px 0;
+  }
+
+  .title-h3-description {
     display: flex;
     flex-direction: column;
   }
