@@ -26,6 +26,27 @@
   margin: 5.5rem 1.5rem 3.5rem;
 }
 
+.destination-tokyo {
+  margin-top: 24px;
+}
+
+.img-tokyo {
+  width: 100%;
+  height: 300px;
+}
+
+.caption-tokyo {
+  margin-top: 8px;
+}
+
+.content-tokyo {
+  margin-bottom: 32px;
+}
+
+.description-tokyo {
+  margin-top: 24px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-blog {
     background-image: url(../assets/blog/hero-blog-tablet.png);
