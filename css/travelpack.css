@@ -1,0 +1,45 @@
+.hero-packs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/travelpack/banner-japao-mobile.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-packs-content {
+  padding: 4rem 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-packs {
+    background-image: url(../assets/travelpack/banner-japao-tablet.png);
+  }
+  .hero-packs-content {
+    padding: 13rem 4.3rem 6.6rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-packs {
+    background-image: url(../assets/travelpack/banner-japao-desktop.png);
+  }
+
+  .hero-packs-content {
+    width: 579px;
+    padding: 13rem 0 0;
+    margin-left: 7.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .destinations-packs {
+    display: flex;
+    gap: 1.5rem;
+    height: 750px;
+  }
+
+  .destinations-packs {
+    max-width: 100%;
+    height: auto;
+  }
+}

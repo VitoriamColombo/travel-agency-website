@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacotes de Viagem</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html" title="Voltar para a página inicial">
+          <img
+            class="header-logo-desktop"
+            src="assets/bussola-texto-jornada-branco.png"
+            alt="Bússola do logo Jornada Viagens: cor Branca" />
+          <img
+            class="header-logo-mobile"
+            src="assets/bussola-jornada-branco.png"
+            alt="Bússola do logo Jornada Viagens: cor Branca"
+        /></a>
+        <div class="header-menu-links">
+          <label for="menu"><img src="assets/menu.png" alt="menu" /></label>
+          <input class="menu-toggle" type="checkbox" id="menu" hidden />
+          <!-- Checkbox usado para controlar a abertura e fechamento do menu (fica oculto visualmente) -->
+          <nav class="header-links">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a
+                  class="menu-link"
+                  href="blog.html"
+                  target="_blank"
+                  title="Acessar Blog"
+                  >Blog</a
+                >
+              </li>
+
+              <li class="menu-item">
+                <a
+                  class="menu-link active"
+                  href="travelpack.html"
+                  target="_blank"
+                  title="Acessar Pacotes de Viagem"
+                  >Pacotes de viagem</a
+                >
+              </li>
+
+              <li class="menu-item">
+                <a
+                  class="menu-link"
+                  href="contato.html"
+                  target="_blank"
+                  title="Acessar Contato"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--Hero-->
+    <section class="hero-packs hero-blog">
+      <div class="hero-packs-content">
+        <h1 class="hero-blog-title">Conheça o Japão!</h1>
+        <hr class="divider divider-hero-blog" />
+        <p class="description hero-blog-description">
+          A Jornada possui o pacote perfeito para seu estilo e orçamento!
+          Conheça as belas paisagens e a cultura milenar deste belo país!
+        </p>
+      </div>
+    </section>
+    <!--Destination Tokyo-->
+    <section class="section-principal">
+      <div class="section-title">
+        <h2 class="section-title-h2">Destinos da Excursão</h2>
+        <hr class="divider" />
+      </div>
+
+      <div class="content destinations-packs">
+        <article class="destinations-card">
+          <div
+            class="destinations-card-content destinations-other destinations-packs"
+          >
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="assets/tokyo-tablet-desktop.jpg"
+              />
+              <img
+                src="assets/tokyo-mobile.jpg"
+                alt="Imagem de Tokyo"
+                class="destinations-img"
+              />
+            </picture>
+
+            <h3 class="title-h3 title-destinations">Tokyo</h3>
+            <p class="description description-osaka">
+              Tóquio é uma cidade vibrante e cosmopolita, com seus templos
+              históricos, museus de arte moderna e arranha-céus icônicos. Não
+              perca a chance de mergulhar em sua atmosfera fascinante.
+            </p>
+
+            <a href="#" class="card-button">Ver detalhes</a>
+          </div>
+        </article>
+
+        <article class="destinations-card">
+          <div
+            class="destinations-card-content destinations-other destinations-packs"
+          >
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="assets/osaka-tablet-desktop.jpg"
+              />
+              <img
+                src="assets/blog/osaka-mobile-blog.png"
+                alt="Imagem de Osaka"
+                class="destinations-img"
+              />
+            </picture>
+
+            <h3 class="title-h3 title-destinations">Osaka</h3>
+            <p class="description description-osaka">
+              Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
+              por sua gastronomia deliciosa e por ser um excelente ponto de
+              partida para explorar outras cidades japonesas próximas.
+            </p>
+
+            <a href="#" class="card-button">Ver detalhes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
