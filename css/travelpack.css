@@ -10,12 +10,56 @@
   padding: 4rem 1.5rem;
 }
 
+.payments-h3 {
+  font-size: 40px;
+}
+
+.payments-h4 {
+  font-size: 28px;
+}
+
+.payments-photo-packs-1 {
+  background-image: url(../assets/travelpack/payments-photo-packs-1.png);
+}
+
+.payments-photo-packs-2 {
+  background-image: url(../assets/travelpack/payments-photo-packs-2.png);
+}
+
+.payments-photo-packs-3 {
+  background-image: url(../assets/travelpack/payments-photo-packs-3.png);
+}
+
+.hero-footer-img-packs {
+  background-image: url(../assets/travelpack/hero-footer-packs-mobile.png);
+}
+
 @media screen and (min-width: 768px) {
   .hero-packs {
     background-image: url(../assets/travelpack/banner-japao-tablet.png);
   }
   .hero-packs-content {
     padding: 13rem 4.3rem 6.6rem 7.5rem;
+  }
+
+  .cad-button-packs {
+    display: none;
+  }
+
+  .payments-photo-packs-1 {
+    background-image: url(../assets/travelpack/payments-photo-packs-tablet-1.png);
+  }
+
+  .payments-photo-packs-2 {
+    background-image: url(../assets/travelpack/payments-photo-packs-tablet-2.png);
+  }
+
+  .payments-photo-packs-3 {
+    background-image: url(../assets/travelpack/payments-photo-packs-tablet-3.png);
+  }
+
+  .hero-footer-img-packs {
+    background-image: url(../assets/travelpack/hero-footer-packs-tablet.png);
   }
 }
 
