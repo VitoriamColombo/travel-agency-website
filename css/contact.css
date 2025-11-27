@@ -1,0 +1,65 @@
+.hero-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../assets/contact/hero-contact-mobile.jpg);
+}
+
+.description-form {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 24px;
+}
+
+/* Form */
+.form {
+  margin: 56px 24px 0;
+  font-size: 20px;
+  height: 542px;
+}
+
+.field {
+  margin-bottom: 64px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  color: var(--text-form-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid var(--color-textarea-form);
+  color: var(--text-form-color);
+}
+
+textarea {
+  min-height: 86px;
+  border-radius: 8px;
+  border: 2px solid var(--color-textarea-form);
+  margin-top: 8px;
+}
+
+.field-textarea {
+  margin-bottom: 32px;
+}
+
+input:required:invalid {
+  border-color: var(--primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-contact {
+    background-image: url(../assets/contact/hero-contact-tablet.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-contact {
+    background-image: url(../assets/contact/hero-contact-desktop.png);
+  }
+}
