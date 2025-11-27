@@ -36,7 +36,8 @@ textarea {
   width: 100%;
   border: none;
   border-bottom: 3px solid var(--color-textarea-form);
-  color: var(--text-form-color);
+  color: var(--text-primary-color);
+  font-size: 1.75rem;
 }
 
 textarea {
