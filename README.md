@@ -2,7 +2,7 @@
 
 ### ✨ Sobre o projeto:
 Projeto desenvolvido para a agência de viagens fictícia **Jornada Viagens**, criado com o objetivo de praticar e consolidar conceitos avançados de **HTML e CSS**, reforçando técnicas de responsividade, acessibilidade, organização de layout e SEO.  
-Para isso, desenvolvi uma página web completa, com páginas internas e navegação funcional. Apliquei semântica adequada, boas práticas de versionamento com Git e finalizei com a publicação no GitHub Pages.
+Para isso, desenvolvi uma Página Web completa, com páginas internas e navegação funcional. Apliquei semântica adequada, boas práticas de versionamento com Git e finalizei com a publicação no GitHub Pages.
 
 ---
 
