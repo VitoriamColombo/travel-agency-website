@@ -62,22 +62,17 @@ Apliquei estratégias importantes para melhorar visibilidade e acessibilidade:
 
 ### 📸 Prévia do projeto:
 
-💻 Versão Web:
+
+
+💻Versão Web / 📱Versão Tablet/Mobile:
 <p align="center">
-<img width="500" alt="Desktop" src="https://github.com/user-attachments/assets/3c5a3b4a-0ff1-4014-aff0-e4c24e044656" />
+<img width="400" alt="Desktop" src="https://github.com/user-attachments/assets/3c5a3b4a-0ff1-4014-aff0-e4c24e044656" />
+&nbsp;&nbsp;
+<img width="200" alt="Tablet" src="https://github.com/user-attachments/assets/408ffa55-3d63-4c61-8bf0-5bf7be6479ad" />
+&nbsp;&nbsp;
+<img width="100 alt="Mobile" src="https://github.com/user-attachments/assets/34ccc574-0c57-4f31-8b19-a6b3bb99f77d" />
 </p>
 
-
-📱 Versão Tablet:
-<p align="center">
-<img width="400" alt="Tablet" src="https://github.com/user-attachments/assets/408ffa55-3d63-4c61-8bf0-5bf7be6479ad" />
-</p>
-
-
-📱 Versão Mobile:
-<p align="center">
-<img width="250" alt="Mobile" src="https://github.com/user-attachments/assets/34ccc574-0c57-4f31-8b19-a6b3bb99f77d" />
-</p>
 
 
 📚 *Projeto criado como parte da minha evolução no Front-End, com melhorias contínuas e foco em boas práticas, acessibilidade e responsividade.*
