@@ -57,7 +57,7 @@ Apliquei estratégias importantes para melhorar visibilidade e acessibilidade:
 ---
 
 ### 🔗 Acesse o projeto publicado:  
-👉 <a href="https://vitoriamcolombo.github.io/travel-agency-website" target="_blank">Ver site online</a>
+✨👉🏻 <a href="https://vitoriamcolombo.github.io/travel-agency-website" target="_blank">Ver site online</a>
 
 
 ### 📸 Prévia do projeto:
